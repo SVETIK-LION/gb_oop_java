@@ -4,19 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7363e7a-e9c8-4fe4-9df0-cd56c44babad" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Daughter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Father.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/GenealogicalTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Grandfather.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Grandmother.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Mother.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Relationship.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Son.java" afterDir="false" />
+    <list default="true" id="c7363e7a-e9c8-4fe4-9df0-cd56c44babad" name="Changes" comment="add classes of genealogical tree">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Daughter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Daughter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Father.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Father.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/GenealogicalTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/GenealogicalTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Grandfather.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Grandfather.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Grandmother.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Grandmother.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Mother.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Mother.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Relationship.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Son.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Son.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668972064131</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add classes of genealogical tree">
+      <created>1669050760112</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1669050760112</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -109,6 +114,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="add classes of genealogical tree" />
+    <option name="LAST_COMMIT_MESSAGE" value="add classes of genealogical tree" />
   </component>
 </project>

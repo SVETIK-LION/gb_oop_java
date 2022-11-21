@@ -28,43 +28,79 @@ public class Person {
         this.biography = biography;
     }
 
+    /**
+     * Показать статус человека в семье
+     * @return Возвращает интерполируемую строку
+     */
     public String getFamilyStatus(){
         return String.format("Семейный статус: %s\n", this.familyStatus);
     }
 
+    /**
+     * Показать Имя
+     * @return Возвращает интерполируемую строку
+     */
     public String getFirstName(){
         return String.format("Имя: %s\n", this.firstName);
     }
 
+    /**
+     * Показать Фамилию
+     * @return Возвращает интерполируемую строку
+     */
     public String getLastName(){
         return String.format("Фамилия: %s\n", this.lastName);
     }
 
+    /**
+     * Показать пол
+     * @return Возвращает интерполируемую строку
+     */
     public String getGender(){
         return String.format("Пол: %s\n", this.gender);
     }
 
+    /**
+     * Показать дату рождения
+     * @return Возвращает интерполируемую строку
+     */
     public String getBirthdate(){
         return String.format("Дата рождения: %s\n", this.birthdate);
     }
 
+    /**
+     * Показать дату смерти (если человек жив, показывает настоящее время)
+     * @return Возвращает интерполируемую строку
+     */
     public String getDeathdate(){
-        return String.format("Дата смерти: %s\n", this.deathdate);
+        return String.format("Дата смерти/Настоящее время: %s\n", this.deathdate);
     }
 
+    /**
+     * Показать Биографию
+     * @return Возвращает интерполируемую строку
+     */
     public String getBiography(){
         return String.format("Биография: %s\n", this.biography);
     }
 
-
-    public String getAllInfo(){
-        return String.format("Семейный статус: %s\nИмя: %s\nФамилия: %s\nПол: %s\nДата рождения: %s\nДата смерти: %s\nБиография: %s\n",
-                this.familyStatus, this.firstName, this.lastName, this.gender, this.birthdate, this.deathdate, this.biography);
+    /**
+     * Показать возраст человека
+     * @return Возвращает тип int - целое число
+     */
+    public int getAge(){
+        System.out.print("Возраст: ");
+        return this.deathdate.getYear() - this.birthdate.getYear();
     }
 
-
-
-
-
-
+    /**
+     * Показать всю основную информацию о человеке
+     * @return Возвращает интерполируемую строку
+     */
+    public String getAllInfo(){
+        return String.format("Семейный статус: %s\nИмя: %s\nФамилия: %s\nПол: %s\nДата рождения:" +
+                        " %s\nДата смерти/Настоящее время: %s\nБиография: %s\n",
+                this.familyStatus, this.firstName, this.lastName, this.gender, this.birthdate,
+                this.deathdate, this.biography);
+    }
 }
