@@ -5,6 +5,7 @@ import java.time.LocalDate;
 
 
 public class Person {
+    // id в данной программе нигде не использую, но можно будет переделать с использованием БД, когда научусь, и id пригодится
     private int idPerson;
     private String familyStatus;
     private String firstName;
