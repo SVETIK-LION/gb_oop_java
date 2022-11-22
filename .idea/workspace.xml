@@ -4,19 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7363e7a-e9c8-4fe4-9df0-cd56c44babad" name="Changes" comment="genealogical tree is completed">
-      <change afterPath="$PROJECT_DIR$/src/main/java/task_2/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task_2/Home.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task_2/Human.java" afterDir="false" />
+    <list default="true" id="c7363e7a-e9c8-4fe4-9df0-cd56c44babad" name="Changes" comment="task_2 in work">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Daughter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/task_1/Daughter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Father.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/task_1/Father.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/GenealogicalTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/task_1/GenealogicalTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Grandfather.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/task_1/Grandfather.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Grandmother.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/task_1/Grandmother.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Mother.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/task_1/Mother.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/task_1/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Son.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/task_1/Son.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/task_2/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task_2/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/task_2/Home.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task_2/Home.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/task_2/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task_2/Human.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +47,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Home">
     <configuration name="GenealogicalTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.task_1.GenealogicalTree" />
       <module name="gb_oop_java" />
@@ -69,8 +61,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Home" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task_2.Home" />
+      <module name="gb_oop_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="task_2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Home" />
         <item itemvalue="Application.GenealogicalTree" />
       </list>
     </recent_temporary>
@@ -119,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669057818213</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="task_2 in work">
+      <created>1669102746713</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1669102746713</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -137,6 +150,7 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="add classes of genealogical tree" />
     <MESSAGE value="genealogical tree is completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="genealogical tree is completed" />
+    <MESSAGE value="task_2 in work" />
+    <option name="LAST_COMMIT_MESSAGE" value="task_2 in work" />
   </component>
 </project>

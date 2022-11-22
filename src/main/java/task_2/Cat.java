@@ -8,12 +8,11 @@ public class Cat {
     }
 
     public String getMood(){
-        System.out.println("Настроение кота:");
         return this.mood;
     }
 
     public void setMood (String newMood){
-        System.out.println("Новое настроение кота:");
+        System.out.printf("Новое настроение кота: %s\n", newMood);
         this.mood = newMood;
     }
 
@@ -23,5 +22,10 @@ public class Cat {
 
     public String sharpenClawsOnToy(){
         return "Какая удобная когтеточка";
+    }
+
+    public String runAway(){
+        this.mood = "Испуган";
+        return "Ой, как страшно! Надо найти укрытие О_О";
     }
 }
