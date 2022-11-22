@@ -14,7 +14,7 @@ public class Home {
 
         // Настроение кота Сигизмунда изменилось, что же он сделал?
         System.out.println("Настроение кота Сигизмунда изменилось, что же он сделал?");
-        System.out.println(Sigizmund.sharpenClawsOnSofa());
+        System.out.printf("Мысли кота: %s\n", Sigizmund.sharpenClawsOnSofa());
         System.out.println("------------------------------------------------------");
 
         // Он подрал диван. Его хозяйка Кира недовольна и бранит кота
