@@ -15,7 +15,6 @@ public class Human {
 
 
     public String getHandsObject(){
-        System.out.println("В руках у человека:");
         return this.handsObject;
     }
 
@@ -28,16 +27,6 @@ public class Human {
         System.out.printf("Теперь в руках у человека: %s\n", newHandsObject);
         this.handsObject = newHandsObject;
     }
-
-//    public String toUpset(){
-//        setFaceExpression("Грустное лицо");
-//        return "Человек расстроился";
-//    }
-//
-//    public String toRejoice(){
-//        setFaceExpression("Счастливое лицо");
-//        return "Человек обрадовался";
-//    }
 
     public void takeFood(){
         setHandsObject("Колбаска");

@@ -16,16 +16,26 @@ public class Cat {
         this.mood = newMood;
     }
 
+    // Метод есть, но он не используется экземплярами класса Cat
+    public String sharpenClawsOnToy(){
+        setMood("Доволен когтеточкой");
+        return "Какая классная когтеточка!";
+    }
+
     public String sharpenClawsOnSofa(){
+        setMood("Доволен подранным диваном");
         return "Диван, я уничтожу тебя!";
     }
 
-    public String sharpenClawsOnToy(){
-        return "Какая удобная когтеточка";
-    }
 
     public String runAway(){
         this.mood = "Испуган";
         return "Ой, как страшно! Надо найти укрытие О_О";
     }
+
+    public String begSausage() {
+        setMood("Спокойное настроение");
+        return "М-м-м, колбаска! Мур-мур-мур!!! Дай мне колбаску!";
+    }
+
 }
