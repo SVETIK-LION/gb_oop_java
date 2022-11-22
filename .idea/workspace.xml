@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7363e7a-e9c8-4fe4-9df0-cd56c44babad" name="Changes" comment="task_2 in work">
+    <list default="true" id="c7363e7a-e9c8-4fe4-9df0-cd56c44babad" name="Changes" comment="task_2 is completed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/task_2/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task_2/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/task_2/Home.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task_2/Home.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/task_1/GenealogicalTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/task_1/GenealogicalTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669109230889</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="task_2 is completed">
+      <created>1669110259220</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1669110259220</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -157,6 +163,7 @@
     <MESSAGE value="add classes of genealogical tree" />
     <MESSAGE value="genealogical tree is completed" />
     <MESSAGE value="task_2 in work" />
-    <option name="LAST_COMMIT_MESSAGE" value="task_2 in work" />
+    <MESSAGE value="task_2 is completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="task_2 is completed" />
   </component>
 </project>
