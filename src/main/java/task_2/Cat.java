@@ -1,6 +1,10 @@
 package task_2;
 
-public class Cat {
+
+/**
+ * Общий абстрактный класс для всех котов
+ */
+public abstract class Cat {
     private String mood;
 
     public Cat(String mood){
@@ -22,20 +26,9 @@ public class Cat {
         return "Какая классная когтеточка!";
     }
 
-    public String sharpenClawsOnSofa(){
-        setMood("Доволен подранным диваном");
-        return "Диван, я уничтожу тебя!";
-    }
-
 
     public String runAway(){
         this.mood = "Испуган";
         return "Ой, как страшно! Надо найти укрытие О_О";
     }
-
-    public String begSausage() {
-        setMood("Спокойное настроение");
-        return "М-м-м, колбаска! Мур-мур-мур!!! Дай мне колбаску!";
-    }
-
 }
