@@ -1,6 +1,10 @@
 package task_2;
 
-public class Human {
+
+/**
+ * Общий абстрактный класс для всех людей, вне зависимости от наличия у них кота
+ */
+public abstract class Human {
     private String handsObject;
     private String faceExpression;
 
@@ -34,16 +38,6 @@ public class Human {
 
     public void takeWeapons(){
         setHandsObject("Палка");
-    }
-
-
-    /**
-     * Просто побранить кота, но не особо охотно, без угрожающей палки
-     * @return Строка, которая описывает происшествие
-     */
-    public String scoldCat(){
-        setFaceExpression("Недовольное лицо\n");
-        return "Плохой кот, плохой! Так нельзя делать, бу-бу-бу!";
     }
 
 }

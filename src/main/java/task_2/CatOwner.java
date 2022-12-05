@@ -1,8 +1,21 @@
 package task_2;
 
+
+/**
+ * класс владельца кота (наследуется от абстрактного класса человека - Human)
+ */
 public class CatOwner extends Human implements Actions{
     public CatOwner(String handsObject, String faceExpression) {
         super(handsObject, faceExpression);
+    }
+
+    /**
+     * Просто побранить кота, но не особо охотно, без угрожающей палки
+     * @return Строка, которая описывает происшествие
+     */
+    public String scoldCat(){
+        setFaceExpression("Недовольное лицо\n");
+        return "Плохой кот, плохой! Так нельзя делать, бу-бу-бу!";
     }
 
     /**

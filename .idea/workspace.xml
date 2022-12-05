@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7363e7a-e9c8-4fe4-9df0-cd56c44babad" name="Changes" comment="task_2 is completed">
-      <change afterPath="$PROJECT_DIR$/src/main/java/task_2/Actions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task_2/CatOwner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task_2/Sigizmund.java" afterDir="false" />
+    <list default="true" id="c7363e7a-e9c8-4fe4-9df0-cd56c44babad" name="Changes" comment="task_2:&#10;- add interface Actions&#10;- add abstract classes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/task_2/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task_2/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/task_2/Home.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task_2/Home.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/task_1/GenealogicalTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/task_1/GenealogicalTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/task_1/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/task_1/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/task_2/CatOwner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task_2/CatOwner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/task_2/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task_2/Human.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -164,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669138830155</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="task_2:&#10;- add interface Actions&#10;- add abstract classes">
+      <created>1669574848336</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1669574848336</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -184,6 +189,7 @@
     <MESSAGE value="genealogical tree is completed" />
     <MESSAGE value="task_2 in work" />
     <MESSAGE value="task_2 is completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="task_2 is completed" />
+    <MESSAGE value="task_2:&#10;- add interface Actions&#10;- add abstract classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="task_2:&#10;- add interface Actions&#10;- add abstract classes" />
   </component>
 </project>
