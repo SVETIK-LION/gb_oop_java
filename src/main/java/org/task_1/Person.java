@@ -1,10 +1,15 @@
-package org.example;
+package org.task_1;
 
 
 import java.time.LocalDate;
 
 
-public class Person {
+/**
+ * Абстрактный класс какого-то человека, который имеет свои личные данные и положение в генеалогическом дереве
+ */
+
+
+public abstract class Person {
     // id в данной программе нигде не использую, но можно будет переделать с использованием БД, когда научусь, и id пригодится
     private int idPerson;
     private String familyStatus;
@@ -100,8 +105,7 @@ public class Person {
      */
     public String getAllInfo(){
         return String.format("Семейный статус: %s\nИмя: %s\nФамилия: %s\nПол: %s\nДата рождения:" +
-                        " %s\nДата смерти/Настоящее время: %s\nБиография: %s\n",
-                this.familyStatus, this.firstName, this.lastName, this.gender, this.birthdate,
-                this.deathdate, this.biography);
+                        " %s\nДата смерти/Настоящее время: %s\nБиография: %s\n", this.familyStatus, this.firstName,
+                this.lastName, this.gender, this.birthdate, this.deathdate, this.biography);
     }
 }
