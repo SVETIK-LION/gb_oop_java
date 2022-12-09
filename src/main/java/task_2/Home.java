@@ -1,9 +1,10 @@
 package task_2;
 
 public class Home {
-    public static void main(String[] args) {
+    public void startHistory(){
         CatOwner Kira = new CatOwner("Пустые руки", "Спокойное выражение лица");
         Sigizmund Sigi = new Sigizmund("Спокойное настроение");
+
 
         // Сначала дома было все тихо и спокойно
         System.out.println("Сначала дома было все спокойно:");
