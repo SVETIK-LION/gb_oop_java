@@ -4,17 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7363e7a-e9c8-4fe4-9df0-cd56c44babad" name="Changes" comment="add classes of genealogical tree">
+    <list default="true" id="c7363e7a-e9c8-4fe4-9df0-cd56c44babad" name="Changes" comment="task_2:&#10;- add interface Actions&#10;- add abstract classes">
+      <change afterPath="$PROJECT_DIR$/src/main/java/task/ThreeGen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Daughter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Daughter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Father.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Father.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/GenealogicalTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/GenealogicalTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Grandfather.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Grandfather.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Grandmother.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Grandmother.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Mother.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Mother.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Relationship.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Son.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Son.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Daughter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Father.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/GenealogicalTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Grandfather.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Grandmother.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Mother.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Son.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,11 +24,18 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="lesson_3" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -48,13 +55,69 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
-    <configuration name="GenealogicalTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.GenealogicalTree" />
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.task.Gen1">
+    <configuration name="Gen1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.gb.Gen1" />
       <module name="gb_oop_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="ru.gb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Gen1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.gb.Gen1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.gb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GenealogicalTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.task_1.GenealogicalTree" />
+      <module name="gb_oop_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.task_1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Home" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task_2.Home" />
+      <module name="gb_oop_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="task_2.Sigizmund" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="task.Gen1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task.Gen1" />
+      <module name="gb_oop_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="task.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -64,6 +127,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.task.Gen1" />
+        <item itemvalue="Application.Gen1 (1)" />
+        <item itemvalue="Application.Gen1" />
+        <item itemvalue="Application.Home" />
         <item itemvalue="Application.GenealogicalTree" />
       </list>
     </recent_temporary>
@@ -98,7 +165,63 @@
       <option name="project" value="LOCAL" />
       <updated>1669050760112</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="genealogical tree is completed">
+      <created>1669057681980</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1669057681980</updated>
+    </task>
+    <task id="LOCAL-00005" summary="genealogical tree is completed">
+      <created>1669057818213</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1669057818213</updated>
+    </task>
+    <task id="LOCAL-00006" summary="task_2 in work">
+      <created>1669102746713</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1669102746713</updated>
+    </task>
+    <task id="LOCAL-00007" summary="task_2 in work">
+      <created>1669109230889</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1669109230889</updated>
+    </task>
+    <task id="LOCAL-00008" summary="task_2 is completed">
+      <created>1669110259220</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1669110259220</updated>
+    </task>
+    <task id="LOCAL-00009" summary="task_2 is completed">
+      <created>1669111431068</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1669111431068</updated>
+    </task>
+    <task id="LOCAL-00010" summary="task_2 is completed">
+      <created>1669138830155</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1669138830155</updated>
+    </task>
+    <task id="LOCAL-00011" summary="task_2:&#10;- add interface Actions&#10;- add abstract classes">
+      <created>1669574848336</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1669574848336</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -115,6 +238,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="add classes of genealogical tree" />
-    <option name="LAST_COMMIT_MESSAGE" value="add classes of genealogical tree" />
+    <MESSAGE value="genealogical tree is completed" />
+    <MESSAGE value="task_2 in work" />
+    <MESSAGE value="task_2 is completed" />
+    <MESSAGE value="task_2:&#10;- add interface Actions&#10;- add abstract classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="task_2:&#10;- add interface Actions&#10;- add abstract classes" />
   </component>
 </project>
