@@ -4,17 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7363e7a-e9c8-4fe4-9df0-cd56c44babad" name="Changes" comment="add classes of genealogical tree">
+    <list default="true" id="c7363e7a-e9c8-4fe4-9df0-cd56c44babad" name="Changes" comment="task is changed">
+      <change afterPath="$PROJECT_DIR$/src/main/java/InformationSystemUniversity/Editing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/InformationSystemUniversity/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/InformationSystemUniversity/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/InformationSystemUniversity/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/InformationSystemUniversity/StudentsEditing.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Daughter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Daughter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Father.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Father.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/GenealogicalTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/GenealogicalTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Grandfather.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Grandfather.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Grandmother.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Grandmother.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Mother.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Mother.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Relationship.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Son.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Son.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Daughter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Father.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/GenealogicalTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Grandfather.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Grandmother.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Mother.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Son.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +28,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
