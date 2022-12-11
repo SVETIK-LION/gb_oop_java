@@ -3,6 +3,7 @@ package InformationSystemUniversity;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class StudentsEditing implements Editing{
@@ -32,7 +33,7 @@ public class StudentsEditing implements Editing{
 
         // Тут будет записываться файл массив, содержащий данные студентов, преобразованный в строку (перезапись файла)
         FileWriter fw = new FileWriter("students.txt", false);
-        fw.write(studentInfo.toString() + "\n");
+        fw.write(studentInfo + "\n");
 
         // Закрываем writer
         fw.close();
@@ -42,12 +43,33 @@ public class StudentsEditing implements Editing{
 
     @Override
     public void change() {
+        // TODO Изменение записи
 
     }
 
     @Override
-    public void del() {
+    public void del() throws Exception{
+        FileReader fr = new FileReader("Students.txt");
+        Scanner frScanner = new Scanner(fr);
+        Scanner scanner = new Scanner(System.in);
 
+        // Запрашиваем id студента:
+        System.out.println("Введите id студента для удаления: ");
+        String id = scanner.nextLine();
+
+
+        // Читаем из файла и перебираем циклом. Берем id студента и сравниваем с введенным. Если совпадает, то удаляем.
+        while (frScanner.hasNextLine()) {
+           String str_student = frScanner.nextLine();
+           String [] lst_student = str_student.split(" ");
+           String student_id = Arrays.asList(lst_student).get(0);
+           //TODO Тут надо уточнить, какой разделитель split, TODO так как не поняла, как "склеивается" массив при записи в файл.
+
+            if(id.equals(student_id)){
+                //TODO Если совпадают, то как-то удаляется
+            }
+
+        }
     }
 
     @Override
@@ -71,7 +93,7 @@ public class StudentsEditing implements Editing{
         FileReader fr = new FileReader("Students.txt");
         Scanner frScanner = new Scanner(fr);
         Scanner scanner = new Scanner(System.in);
-
+        // TODO Добавление в группу
         System.out.println("Введите идентификатор студента: ");
         String student_id = scanner.nextLine();
         System.out.println("Введите номер группы: ");
