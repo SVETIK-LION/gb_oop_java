@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7363e7a-e9c8-4fe4-9df0-cd56c44babad" name="Changes" comment="displayAll is changed">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/InformationSystemUniversity/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InformationSystemUniversity/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/InformationSystemUniversity/StudentsEditing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InformationSystemUniversity/StudentsEditing.java" afterDir="false" />
-    </list>
+    <list default="true" id="c7363e7a-e9c8-4fe4-9df0-cd56c44babad" name="Changes" comment="del in work" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -127,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670782549469</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="del in work">
+      <created>1670785861224</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1670785861224</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -146,6 +149,7 @@
     <MESSAGE value="add classes of genealogical tree" />
     <MESSAGE value="Student, Editing, StudentEditing are added" />
     <MESSAGE value="displayAll is changed" />
-    <option name="LAST_COMMIT_MESSAGE" value="displayAll is changed" />
+    <MESSAGE value="del in work" />
+    <option name="LAST_COMMIT_MESSAGE" value="del in work" />
   </component>
 </project>
