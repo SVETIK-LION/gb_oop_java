@@ -1,11 +1,11 @@
 package InformationSystemUniversity;
 
 public interface Editing {
-   public void add();
+   public void add() throws Exception;
 
-   public void change();
+   public void change() throws Exception;
 
-   public void del();
+   public void del() throws Exception;
 
-   public void displayAll();
+   public void displayAll() throws Exception;
 }
