@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c7363e7a-e9c8-4fe4-9df0-cd56c44babad" name="Changes" comment="Student, Editing, StudentEditing are added">
-      <change beforePath="$PROJECT_DIR$/src/main/java/InformationSystemUniversity/Editing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InformationSystemUniversity/Editing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/InformationSystemUniversity/StudentsEditing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InformationSystemUniversity/StudentsEditing.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -98,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670779765592</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Student, Editing, StudentEditing are added">
+      <created>1670780176860</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1670780176860</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
