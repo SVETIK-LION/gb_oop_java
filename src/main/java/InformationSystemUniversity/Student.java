@@ -1,5 +1,6 @@
 package InformationSystemUniversity;
 
+
 public class Student extends Person {
     private String speciality;
 
