@@ -4,17 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7363e7a-e9c8-4fe4-9df0-cd56c44babad" name="Changes" comment="add classes of genealogical tree">
+    <list default="true" id="c7363e7a-e9c8-4fe4-9df0-cd56c44babad" name="Changes" comment="add Teacher, TeacherEditing, interface Editing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Daughter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Daughter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Father.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Father.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/GenealogicalTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/GenealogicalTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Grandfather.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Grandfather.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Grandmother.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Grandmother.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Mother.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Mother.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Relationship.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Son.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Son.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/InformationSystemUniversity/Editing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InformationSystemUniversity/Editing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/InformationSystemUniversity/StudentsEditing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InformationSystemUniversity/StudentsEditing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/InformationSystemUniversity/TeacherEditing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InformationSystemUniversity/TeacherEditing.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,10 +19,16 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="lesson_5" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -48,7 +48,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="GenealogicalTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.GenealogicalTree" />
       <module name="gb_oop_java" />
@@ -62,8 +62,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InformationSystemUniversity.Main" />
+      <module name="gb_oop_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="InformationSystemUniversity.StudentsEditing" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.GenealogicalTree" />
       </list>
     </recent_temporary>
@@ -98,7 +112,56 @@
       <option name="project" value="LOCAL" />
       <updated>1669050760112</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Student, Editing, StudentEditing are added">
+      <created>1670779765592</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1670779765592</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Student, Editing, StudentEditing are added">
+      <created>1670780176860</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1670780176860</updated>
+    </task>
+    <task id="LOCAL-00006" summary="displayAll is changed">
+      <created>1670782549469</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1670782549469</updated>
+    </task>
+    <task id="LOCAL-00007" summary="del in work">
+      <created>1670785861224</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1670785861224</updated>
+    </task>
+    <task id="LOCAL-00008" summary="del in work">
+      <created>1670786284250</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1670786284250</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add StudentsEditing">
+      <created>1671515655175</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1671515655175</updated>
+    </task>
+    <task id="LOCAL-00010" summary="add Teacher, TeacherEditing, interface Editing">
+      <created>1671693058552</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1671693058552</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -115,6 +178,11 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="add classes of genealogical tree" />
-    <option name="LAST_COMMIT_MESSAGE" value="add classes of genealogical tree" />
+    <MESSAGE value="Student, Editing, StudentEditing are added" />
+    <MESSAGE value="displayAll is changed" />
+    <MESSAGE value="del in work" />
+    <MESSAGE value="add StudentsEditing" />
+    <MESSAGE value="add Teacher, TeacherEditing, interface Editing" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Teacher, TeacherEditing, interface Editing" />
   </component>
 </project>
