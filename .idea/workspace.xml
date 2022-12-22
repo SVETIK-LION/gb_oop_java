@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7363e7a-e9c8-4fe4-9df0-cd56c44babad" name="Changes" comment="add StudentsEditing">
-      <change afterPath="$PROJECT_DIR$/src/main/java/InformationSystemUniversity/Teacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/InformationSystemUniversity/TeacherEditing.java" afterDir="false" />
+    <list default="true" id="c7363e7a-e9c8-4fe4-9df0-cd56c44babad" name="Changes" comment="add Teacher, TeacherEditing, interface Editing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/InformationSystemUniversity/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InformationSystemUniversity/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/InformationSystemUniversity/Editing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InformationSystemUniversity/Editing.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/InformationSystemUniversity/StudentsEditing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InformationSystemUniversity/StudentsEditing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/InformationSystemUniversity/TeacherEditing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InformationSystemUniversity/TeacherEditing.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -155,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671515655175</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="add Teacher, TeacherEditing, interface Editing">
+      <created>1671693058552</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1671693058552</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -176,6 +182,7 @@
     <MESSAGE value="displayAll is changed" />
     <MESSAGE value="del in work" />
     <MESSAGE value="add StudentsEditing" />
-    <option name="LAST_COMMIT_MESSAGE" value="add StudentsEditing" />
+    <MESSAGE value="add Teacher, TeacherEditing, interface Editing" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Teacher, TeacherEditing, interface Editing" />
   </component>
 </project>

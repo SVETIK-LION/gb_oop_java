@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class StudentsEditing implements Editing {
+
+    @Override
     // Проверяет, существует ли уже запись о студенте с таким id
     public boolean isExist(ArrayList<Student> arrayStudent, String id) {
         boolean flag = false;

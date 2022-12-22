@@ -6,7 +6,8 @@ import java.util.Scanner;
 public class TeacherEditing implements Editing {
 
 
-    public boolean isExistInGroup(ArrayList<Student> arrayGroup, String idStudent) {
+    @Override
+    public boolean isExist(ArrayList<Student> arrayGroup, String idStudent) {
         for (Student student : arrayGroup) {
             if (student.getId().equals(idStudent)) {
                 System.out.println("Этот студент уже добавлен в группу");
@@ -30,7 +31,7 @@ public class TeacherEditing implements Editing {
         System.out.println("Введите id студента, которого нужно добавить в группу: ");
         Scanner scanner = new Scanner(System.in);
         String idStudent = scanner.nextLine();
-        boolean exist = isExistInGroup(arrayGroup, idStudent);
+        boolean exist = isExist(arrayGroup, idStudent);
         if (isFound(arrayStudent, idStudent)) {
             if (!exist) {
                 for (Student student : arrayStudent) {
