@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7363e7a-e9c8-4fe4-9df0-cd56c44babad" name="Changes" comment="del in work">
+    <list default="true" id="c7363e7a-e9c8-4fe4-9df0-cd56c44babad" name="Changes" comment="add StudentsEditing">
+      <change afterPath="$PROJECT_DIR$/src/main/java/InformationSystemUniversity/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/InformationSystemUniversity/TeacherEditing.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/InformationSystemUniversity/Editing.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/InformationSystemUniversity/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InformationSystemUniversity/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/InformationSystemUniversity/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InformationSystemUniversity/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/InformationSystemUniversity/StudentsEditing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InformationSystemUniversity/StudentsEditing.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +25,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="lesson_5" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -143,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670786284250</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add StudentsEditing">
+      <created>1671515655175</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1671515655175</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -163,6 +175,7 @@
     <MESSAGE value="Student, Editing, StudentEditing are added" />
     <MESSAGE value="displayAll is changed" />
     <MESSAGE value="del in work" />
-    <option name="LAST_COMMIT_MESSAGE" value="del in work" />
+    <MESSAGE value="add StudentsEditing" />
+    <option name="LAST_COMMIT_MESSAGE" value="add StudentsEditing" />
   </component>
 </project>

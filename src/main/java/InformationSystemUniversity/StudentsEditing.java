@@ -3,7 +3,7 @@ package InformationSystemUniversity;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class StudentsEditing {
+public class StudentsEditing implements Editing {
     // Проверяет, существует ли уже запись о студенте с таким id
     public boolean isExist(ArrayList<Student> arrayStudent, String id) {
         boolean flag = false;
@@ -98,7 +98,7 @@ public class StudentsEditing {
             }
         }
         if (idx == -1){
-            System.out.println("Студента с таким id нет, поаторите ввод: ");
+            System.out.println("Студента с таким id нет, повторите ввод: ");
         } else {
             arrayStudent.remove(idx);
             System.out.println("Студент удален успешно\n");
@@ -107,6 +107,7 @@ public class StudentsEditing {
 
     }
 
+    @Override
     // Показывает всех студентов
     public void displayAll(ArrayList<Student> arrayStudent) {
         if (arrayStudent.size() == 0) {
@@ -114,6 +115,7 @@ public class StudentsEditing {
             return;
         }
 
+        System.out.println("Студенты на факультете:");
         System.out.println("| id | Имя и Фамилия | Возраст | Специальность |");
 
         for (Student student : arrayStudent) {
